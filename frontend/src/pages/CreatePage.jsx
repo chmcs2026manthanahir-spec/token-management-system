@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 import toast from "react-hot-toast";
 import axiosInstance from "../lib/axios";
-import TokenForm from "../components/TokenForm";
+import TokenForm from "../Components/TokenForm";
 
 export default function CreatePage() {
   const navigate = useNavigate();
