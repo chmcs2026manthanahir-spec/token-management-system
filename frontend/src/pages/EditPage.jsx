@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import toast from "react-hot-toast";
 import axiosInstance from "../lib/axios";
-import TokenForm from "../components/TokenForm";
+import TokenForm from "../Components/TokenForm";
 
 export default function EditPage() {
   const { id } = useParams();
